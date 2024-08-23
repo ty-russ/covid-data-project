@@ -8,9 +8,9 @@ This project involves analyzing COVID-19 data using SQL to gain insights into th
 - Analyze cases, deaths, and vaccination rates.
 - Calculate infection and death rates.
 - Identify high-impact countries and continents.
-- 
+  
 ### Temporary Tables & Views:
-    Create temporary tables and views for more complex analyses and visualization preparation.
+Create temporary tables and views for more complex analyses and visualization preparation.
 
 ### How to Run the Queries
 To run the queries, clone this repository and execute the SQL scripts in your PostgreSQL environment. Ensure that the public.coviddeaths and public.covidvaccinations tables are properly populated with the relevant data.
@@ -24,6 +24,7 @@ psql -f covid-analysis.sql
 
 ### 1. Total Cases and Deaths
 **Purpose**: Understand the overall impact of the pandemic over time.
+
 **Query:** Retrieve data on total COVID-19 cases and deaths across various locations and dates.
 ```sql
 SELECT location, date, total_cases, new_cases, total_deaths, population
@@ -145,7 +146,7 @@ FROM
 - Add time-series analysis to track the progression of the pandemic.
 - Integrate additional data sources for deeper insights.
 - Create interactive dashboards to visualize the results.
-- 
+
 ## Conclusion
 This project demonstrates my ability to work with real-world datasets and perform detailed analysis using SQL. It showcases skills in data manipulation, query optimization, and insight generation, which are essential for data-driven decision-making.
 
